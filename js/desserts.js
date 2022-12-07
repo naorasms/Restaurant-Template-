@@ -36,34 +36,34 @@ btn_left.onclick= function() {
     if(indx ==1){
         bgClr.style.backgroundColor= "#FFE9B6";
         title.style.color = "#FFB200";
-        title.innerHTML = "Fast Food";
+        title.innerHTML = "وجبات سريعة";
         // window.location.replace("fast.html")
         // indx = 0;
     }
     if(indx == 2){
         bgClr.style.backgroundColor= "#fedcd1";
         title.style.color = "#EB7E5B";
-        title.innerHTML = "Ice Cream";
+        title.innerHTML = "مثلجات";
         // window.location.replace("ice.html")
         // indx = 0;
     }
     if(indx == 3){
         bgClr.style.backgroundColor= "#D0FFB4";
         title.style.color = "green";
-        title.innerHTML = "Coocked Food";
+        title.innerHTML = "الطبخ";
         // indx = 0;
     }
     if(indx == 4){
         
         bgClr.style.backgroundColor= "rgba(50, 158, 145, 0.5)";
         title.style.color = "#329E91";
-        title.innerHTML = "Drinks";
+        title.innerHTML = "المشروبات";
         // indx = 0;
     }
     if(indx == 5){
         bgClr.style.backgroundColor= "#fedcd1";
         title.style.color = "#EB7E5B";
-        title.innerHTML = "Desserts";
+        title.innerHTML = "الحلويات";
         indx = 0;
     }
     dish.src = arr[indx].src;
@@ -87,34 +87,34 @@ btn_right.onclick= function() {
     if(indx == 0){
         bgClr.style.backgroundColor= "#fedcd1";
         title.style.color = "#EB7E5B";
-        title.innerHTML = "Desserts";
+        title.innerHTML = "الحلويات";
         indx = 0;
     }
     if(indx ==1){
         bgClr.style.backgroundColor= "#FFE9B6";
         title.style.color = "#FFB200";
-        title.innerHTML = "Fast Food";
+        title.innerHTML = "وجبات سريعة";
         // window.location.replace("fast.html")
         // indx = 0;
     }
     if(indx == 2){
         bgClr.style.backgroundColor= "#fedcd1";
         title.style.color = "#EB7E5B";
-        title.innerHTML = "Ice Cream";
+        title.innerHTML = "المثلجات";
         // window.location.replace("ice.html")
         // indx = 0;
     }
     if(indx == 3){
         bgClr.style.backgroundColor= "#D0FFB4";
         title.style.color = "#56AF09";
-        title.innerHTML = "Coocked Food";
+        title.innerHTML = "الطبخ";
         // indx = 0;
     }
     if(indx == 4){
         
         bgClr.style.backgroundColor= "rgba(50, 158, 145, 0.5)";
         title.style.color = "#329E91";
-        title.innerHTML = "Drinks";
+        title.innerHTML = "المشروبات";
         // indx = 0;
     }
      if(indx == 5){

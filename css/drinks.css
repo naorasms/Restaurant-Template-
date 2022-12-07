@@ -239,6 +239,10 @@ header {
   margin-left: auto;
   margin-right: 0;
 }
+html[dir=rtl] .primary__nav li:last-child{
+  margin-right: auto;
+  margin-left: unset;
+}
 header .navbar.open,
 header .navbar ul li ul.open{
 display: block;
@@ -298,6 +302,10 @@ display: block;
   li.phone a{
     width: 3rem;
     margin-left: auto;
+  }
+  html[dir=rtl] li.phone a{
+    margin-left: unset;
+    margin-right: auto;
   }
   .icon_phone{
     display: block;
@@ -574,6 +582,9 @@ display: block;
   flex-direction: column;
 
 }
+html[dir=rtl] .food__img {
+  position: relative;
+}
 .food__img .dish{
   opacity: 0;
 }
@@ -593,6 +604,10 @@ display: block;
   top: -800px;
   overflow: hidden;
 }
+html[dir=rtl] .big_circle{
+  margin-right: unset;
+  right: 25%;
+}
 .food__img img,
 .food__img .circle__item img{
   width: 250px;
@@ -607,7 +622,11 @@ display: block;
   /* position: relative; */
   /* left: 108px; */
 }
-
+html[dir=rtl] .food__img img,
+.food__img .circle__item img{
+  display: flex;
+  align-self: center;
+}
 
 /*========================== start slider ==========================*/
 
@@ -624,7 +643,9 @@ display: block;
     left: 11%;
     transition: 500ms ease-in-out;
 }
-
+html[dir=rtl] .circle {
+  right: 11%;
+}
 .circle__item{
   position: absolute;
   display: flex;
@@ -1059,6 +1080,9 @@ display: block;
   border-radius: 9px;
   color: #fff;
 
+}
+html[dir=rtl] .card_content span{
+  float: left;
 }
 .card_content p{
   color: #656464;
